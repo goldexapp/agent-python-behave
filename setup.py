@@ -5,7 +5,7 @@ import os
 from setuptools import setup
 
 
-__version__ = '1.9.0'
+__version__ = '1.2.0'
 
 
 def read_file(fname):
@@ -19,7 +19,7 @@ def read_file(fname):
 
 
 setup(
-    name='behave-reportportal',
+    name='behave-reportportal-custom',
     version=__version__,
     description='Agent for reporting Behave results to the Report Portal',
     long_description=read_file('README.rst'),
